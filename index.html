@@ -1,13 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JOEMEDFORCE</title>
+  <title>JoeMedforce</title>
   <meta charset="UTF-8"/>
-</head>
-<body id='body'>
+  <meta name="viewport" id="jb-viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=0" />
+	<meta name="description" content="Twitch streamer JoeMedforce's community and info page.">
+  <link rel="icon" href="profile_image_round.png">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Press+Start+2P&family=Russo+One&family=Sarpanch:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"><body id='body'>
   <link rel="stylesheet" href="styles/styles.css">
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+  
+
+  
   <div id="content">
 
+
+    <nav id="top-nav">
+      <div id="header-title" style="background-image:url('profile-banner-2.png')">JoeMedforce</div>
+    </nav>
+
+    <div id="main-content">
+      <!-- Add a placeholder for the Twitch embed -->
+      <div id="twitch-embed"></div>
+      <!-- Load the Twitch embed script -->
+      <script src="https://embed.twitch.tv/embed/v1.js"></script>
+      <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+      <script type="text/javascript">
+        new Twitch.Embed("twitch-embed", {
+          width: "100%",
+          height: "100%",
+          channel: "joemedforce",
+          // only needed if your site is also embedded on embed.example.com and othersite.example.com 
+          // parent: ["embed.example.com", "othersite.example.com"]
+        });
+      </script>
+
+      <div id="twitter-feed">
+        <a class="twitter-timeline"
+          href="https://twitter.com/joemedforce"
+          data-theme="light"
+          data-chrome="transparent"
+          data-width="100%"
+          data-height="100%">
+        </a>
+      </div>
+
+      <div id="discord">
+        <iframe src="https://discordapp.com/widget?id=709029940431028246&theme=dark" 
+          width="100%" height="100%" allowtransparency="true" frameborder="0" 
+          sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+        </iframe>
+      </div>
+
+      
+    </div>
   </div>
   <script type="text/javascript" src="scripts/script.js"></script>
 </body>
