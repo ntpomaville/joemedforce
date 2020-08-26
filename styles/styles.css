@@ -96,8 +96,22 @@ a:active {
     left: 0;
     right: 0;
     bottom: 0;
+    background-color: #eeeed9;
 }
 
+/*#content::before {    
+    content: "";
+    background-image:url('Medforcepurpledark.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.1;
+}*/
 /*Start Top Bar*/
 
 #top-nav {
@@ -108,25 +122,48 @@ a:active {
     background-color: #66229C;
     background-color: #C97AFE;
     background-color: #47126F;
-    background: linear-gradient(40deg, #C97AFE 0%, #66229C 300px, #47126F 90%);
-    border-bottom: 1px solid darkgoldenrod;
+    background: linear-gradient(40deg, #C97AFE 0%, #FAF2B5 300px, #47126F 90%, #47126F 100%);
+    border-bottom: 1px solid #F0D200;
 }
 
 #header-title {
     height: 120px;
     background-size: contain;
     background-repeat: no-repeat;
-    /*font-family: 'Sarpanch', sans-serif;
-    font-family: 'Russo One', sans-serif;
-    font-family: 'Press Start 2P', cursive;*/
-    font-family: 'Orbitron', sans-serif;
-    font-weight: 700;
-    font-size: 52px;
-    text-shadow: -3px .5px #3cc6d8;
-    /*text-shadow: 2px 2px rgb(223, 145, 0);*/
-    line-height: 120px;
-    color: #F6E01D;
-    padding-left: 180px;
+    font-size: 62px;
+    
+    
+    font-family: 'Soloist Halftone 2';
+    
+    font-family: 'Soloist Academy';
+    font-family: 'Soloist Laser';
+    font-family: 'Soloist';
+    /*text-shadow: -2px 2px rgb(223, 145, 0);*/
+    text-shadow: -3px 3px #705030;
+    text-shadow: -6px 1px #3cc6d8;
+    text-shadow: none;
+    text-shadow: -1px 1px #564175;
+    color: #FFFF01;
+    color: #F0D200;
+    padding-left: 38px;
+    line-height: 92px;
+}
+
+#subtitle {
+    font-family: 'Soloist Halftone';
+    text-shadow: -1px 1px #303090;
+    text-shadow: none;
+    text-shadow: -1px 1px #564175;
+    text-shadow: -1px -1px #FAF2B5;
+    color: #3cc6d8;
+    color: #FCCC01;
+    color: #eeeed9;
+    color: #FAF2B5;
+    color: #E282FF;
+    color: #47126F;
+    font-size: 20px;
+    padding-left: 30px;
+    line-height: 0px;
 }
 
 /*End Top Bar

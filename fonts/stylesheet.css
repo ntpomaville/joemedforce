@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Soloist Laser';
+    src: url('SoloistLaserItalic.woff2') format('woff2'),
+        url('SoloistLaserItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soloist Academy';
+    src: url('SoloistAcademy.woff2') format('woff2'),
+        url('SoloistAcademy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soloist 3D';
+    src: url('Soloist3D.woff2') format('woff2'),
+        url('Soloist3D.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soloist Outline';
+    src: url('SoloistOutline.woff2') format('woff2'),
+        url('SoloistOutline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soloist Halftone 2';
+    src: url('SoloistHalftone2.woff2') format('woff2'),
+        url('SoloistHalftone2.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soloist Chrome';
+    src: url('SoloistChrome.woff2') format('woff2'),
+        url('SoloistChrome.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soloist';
+    src: url('Soloist.woff2') format('woff2'),
+        url('Soloist.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soloist';
+    src: url('SoloistItalic.woff2') format('woff2'),
+        url('SoloistItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soloist Gradient';
+    src: url('SoloistGradient.woff2') format('woff2'),
+        url('SoloistGradient.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soloist Expanded';
+    src: url('SoloistExpanded.woff2') format('woff2'),
+        url('SoloistExpanded.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soloist Halftone';
+    src: url('SoloistHalftone.woff2') format('woff2'),
+        url('SoloistHalftone.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soloist Condensed';
+    src: url('SoloistCondensed.woff2') format('woff2'),
+        url('SoloistCondensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soloist Laser';
+    src: url('SoloistLaser.woff2') format('woff2'),
+        url('SoloistLaser.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soloist Halftone';
+    src: url('SoloistHalftone.woff2') format('woff2'),
+        url('SoloistHalftone.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soloist Title';
+    src: url('SoloistTitle.woff2') format('woff2'),
+        url('SoloistTitle.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soloist Straight';
+    src: url('SoloistStraight.woff2') format('woff2'),
+        url('SoloistStraight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soloist Extra';
+    src: url('SoloistExtra-Italic.woff2') format('woff2'),
+        url('SoloistExtra-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Soloist Leftalic';
+    src: url('SoloistLeftalic.woff2') format('woff2'),
+        url('SoloistLeftalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
