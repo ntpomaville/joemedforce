@@ -99,34 +99,13 @@ a:active {
     background-color: #1A1A1B;
 }
 
-/*#content::before {    
-    content: "";
-    background-image:url('Medforcepurpledark.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.1;
-}*/
-/*Start Top Bar*/
+/*Start Header*/
 
-#top-nav {
-    /*z-index: 2;
-    position: fixed;*/
+#title-bar {
     height: 180px;
     width: 100vw;
-    background-color: #66229C;
-    background-color: #C97AFE;
     background-color: #47126F;
-    background: linear-gradient(40deg, #C97AFE 0%, #FAF2B5 300px, #47126F 700px, #47126F 100%);
-    background: linear-gradient(40deg, #C97AFE 0%, #421272 300px, #47126F 700px, #47126F 100%);
-    /*background: linear-gradient(310deg, #C97AFE 0%, #421272 300px, #47126F 700px, #47126F 100%);*/
     background: linear-gradient(40deg, #C97AFE 0%, #421272 300px, #111111 500px, #111111 100%);
-
     border-bottom: 1px solid #F0D200;
 }
 
@@ -134,69 +113,53 @@ a:active {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 4;
+    z-index: 1;
     height: 180px;
     width: 415px;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
+
 #header-title {
     position: absolute;
     left: 300px;
     top: 25px;
-    z-index: 4;
+    z-index: 2;
     height: 120px;
-    width: 100vw;
+    width: calc(100vw - 300px);
     font-size: 48px;
-    font-family: 'Soloist Halftone 2';
-    font-family: 'Soloist Academy';
-    font-family: 'Soloist Laser';
-    font-family: 'Soloist';
-    /*text-shadow: -2px 2px rgb(223, 145, 0);*/
-    text-shadow: -3px 3px #705030;
-    text-shadow: -6px 1px #3cc6d8;
-    text-shadow: none;
-    text-shadow: -5px 5px #564175;
-    text-shadow: 3px 3px #261145;
-    color: #FFFF01;
-    color: #F0D200;
+    font-family: 'Soloist Chrome';
+    text-shadow: 3px 3px #F0D200;
+    color: #9146FF;
 }
 
 #header-name {
     font-size: 68px;
     line-height: 57px;
+    font-family: 'Soloist';
+    text-shadow: 3px 3px #261145;
+    color: #F0D200;
 }
 
 #subtitle {
     position: absolute;
-    z-index: 3;
-    top: 117px;
+    z-index: 2;
+    top: 118px;
     left: 170px;
     font-family: 'Soloist Halftone';
-    text-shadow: -1px 1px #303090;
-    text-shadow: none;
-    text-shadow: -1px 1px #564175;
-    text-shadow: -1px -1px #FAF2B5;
     text-shadow: 1px 1px #564175;
-    color: #3cc6d8;
-    color: #FCCC01;
     color: #eeeed9;
-    color: #FAF2B5;
-    color: #E282FF;
-    color: #47126F;
-    color: #eeeed9;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 #subtitle-medforce {
     position: absolute;
-    top: 111px;
-    left: 306px;
+    top: 114px;
+    left: 292px;
     font-family: 'Soloist';
-    font-size: 34px;
-    text-shadow: 2px 1px #261145;
-    text-shadow: 2px -1px #F0D200;
+    font-size: 29px;
+    text-shadow: 1px 1px #261145;
     color: #9D00FD;
 }
 
@@ -204,7 +167,7 @@ a:active {
     position: absolute;
     top: 0;
     left: 180px;
-    z-index: 2;
+    z-index: 0;
     height: 180px;
     width: 550px;
     background-size: contain;
@@ -215,11 +178,99 @@ a:active {
     position: absolute;
     top: 0;
     left: 600px;
-    z-index: 2;
+    z-index: 0;
     height: 180px;
     width: calc(100vw - 600px);
     background-size: contain;
     background-repeat: repeat;
+}
+
+#top-nav {
+    position: absolute;
+    top: 140px;
+    right: 0;
+    height: 100%;
+    width: calc(100vw - 840px);
+}
+
+.title-menu {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-family: 'Soloist Laser';
+    /*text-shadow: -1px -1px #9D00FD;*/
+    text-shadow: 1px 1px #261145;
+    color: #F0D200;
+}
+
+.menu-item {
+    flex: 1;
+    height: 35px;
+    line-height: 45px;
+    padding-top: 5px;
+    background: radial-gradient(ellipse at bottom, rgb(201, 122, 254, .3) 0%, rgb(66, 18, 114, .3) 60%, rgb(0, 0, 0, 0) 85%);
+    user-select: none;
+}
+
+.menu-item:hover {
+    /*border-bottom: 3px solid rgb(235,235,235);*/
+    font-weight: 400;
+    background: radial-gradient(ellipse at bottom, rgb(201, 122, 254, .6) 0%, rgb(66, 18, 114, .6) 60%, rgb(0, 0, 0, 0) 75%);
+
+}
+
+#first-menu-item {
+    border-radius: 5px 0 0 0;
+
+}
+
+
+
+@media screen and (max-width: 1500px) {
+
+    #header-img {
+        left: -180px;
+    }
+
+    #header-title {
+        left: 120px;
+        width: calc(100vw - 120px);
+    }
+
+    #header-img-joe {
+        left: 0;
+    }
+
+    #stars-bg {
+        left: 420px;
+        width: calc(100vw - 420px);
+    }
+    
+    #top-nav {
+        width: calc(100vw - 660px)
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #top-nav {
+        top: 181px;
+        width: 100vw;
+        height: 40px;
+    }
+    .menu-item {
+        line-height: 30px;
+        background: radial-gradient(ellipse at top, rgb(201, 122, 254, .3) 0%, rgb(66, 18, 114, .3) 60%, rgb(0, 0, 0, 0) 85%);
+    }
+    .menu-item:hover {
+        background: radial-gradient(ellipse at top, rgb(201, 122, 254, .6) 0%, rgb(66, 18, 114, .6) 60%, rgb(0, 0, 0, 0) 75%);
+
+    }
+}
+
+@media screen and (max-width: 680px) {
+    
 }
 
 /*End Top Bar
@@ -227,13 +278,20 @@ Start Content*/
 
 #main-content {
     position: absolute;
-    top: 128px;
+    z-index: -1;
+    top: 181px;
     left: 0;
     right: 0;
     bottom: 0;
     max-width: 1200px;
     margin: auto;
     padding: 0 20px 0 20px;
+}
+
+@media screen and (max-width: 1500px) {
+    #main-content {
+        top: 220px;
+    }
 }
 
 #twitch-embed {
