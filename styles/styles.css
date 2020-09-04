@@ -70,20 +70,25 @@ table {
 
 a:link {
     text-decoration: none;
-    color: black;
+    color: transparent;
 }
 
 a:visited {
-    color: darkgrey;
+    color: transparent;
 }
 
 a:hover {
     text-decoration: none;
-    color: purple;
+    color: transparent;
+}
+
+a:focus {
+    text-decoration: none;
+    color: transparent;
 }
 
 a:active {
-    color: purple;
+    color: transparent;
 }
 
 #body {
@@ -146,9 +151,9 @@ a:active {
     position: absolute;
     text-align: center;
     z-index: 2;
-    top: 10px;
+    top: 13px;
     right: 0;
-    width: calc(100vw - 840px);
+    width: calc(100vw - 740px);
     font-family: 'Soloist Halftone';
     text-shadow: 1px 1px #564175;
     color: #eeeed9;
@@ -159,12 +164,12 @@ a:active {
     position: absolute;
     text-align: center;
     z-index: 2;
-    top: 36px;
+    top: 47px;
     right: 0;
-    width: calc(100vw - 840px);
+    width: calc(100vw - 740px);
     font-family: 'Soloist';
-    font-size: 58px;
-    text-shadow: 1px 1px #261145;
+    font-size: 68px;
+    text-shadow: 3px 3px #261145;
     color: #9D00FD;
 }
 
@@ -191,15 +196,44 @@ a:active {
     background-repeat: repeat;
 }
 
+#social-media-links {
+    position: absolute;
+    z-index: 6;
+    right: 0;
+    top: 14px;
+    width: calc(30vw - 220px);
+    min-width: 220px;
+}
+
+#social-media-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.social-media-button {
+    flex: 1;
+    user-select: none;
+    height: 30px;
+}
+
+.social-media-icon {
+    height: 30px;
+    opacity: 70%;
+}
+
+.social-media-icon:hover {
+    opacity: 100%;
+}
+
+
 #top-nav {
     position: absolute;
     z-index: 2;
-    top: 130px;
+    top: 150px;
     right: 0;
-    height: 35px;
-    width: calc(100vw - 840px);
     font-size: 20px;
-    line-height: 45px;
+    width: calc(100vw - 840px);
     font-family: 'Soloist Laser';
     text-shadow: 1px 1px #261145;
     color: #F0D200;
@@ -210,60 +244,74 @@ a:active {
     justify-content: space-around;
     text-align: center;
     flex-wrap: wrap;
+    height: 30px;
 }
 
 .menu-item {
     flex: 1;
-    padding-top: 5px;
     background: radial-gradient(ellipse at bottom, rgb(201, 122, 254, .3) 0%, rgb(66, 18, 114, .3) 60%, rgb(0, 0, 0, 0) 85%);
     user-select: none;
+    line-height: 30px;
 }
 
 .menu-item:hover {
-    /*border-bottom: 3px solid rgb(235,235,235);*/
-    font-weight: 400;
     background: radial-gradient(ellipse at bottom, rgb(201, 122, 254, .6) 0%, rgb(66, 18, 114, .6) 60%, rgb(0, 0, 0, 0) 75%);
-    font-size: 21px;
+    font-size: 21px; 
+}
+
+a.menu-link:link {
+    text-decoration: none;
+    color: #F0D200;
+}
+
+a.menu-link:visited {
+    color: #F0D200;
+}
+
+a.menu-link:hover {
+    text-decoration: none;
+    color: #F0D200;
+}
+
+a.menu-link:focus {
+    text-decoration: none;
+    color: #F0D200;
+}
+
+a.menu-link:active {
+    color: #F0D200;
 }
 
 
 @media screen and (max-width: 1500px) {
-
-
     #header-img {
         left: -180px;
     }
-
     #header-title {
         left: 120px;
         width: calc(100vw - 120px);
         max-width: calc(100vw - 120px);
     }
-
     #subtitle {
         width: calc(100vw - 660px);
     }
-
     #subtitle-medforce {
         width: calc(100vw - 660px);
     }
-
     #header-img-joe {
         left: 0;
     }
-
     #stars-bg {
         width: calc(100vw - 420px);
         max-width: calc(100vw - 420px);
     }
-    
     #top-nav {
         width: calc(100vw - 660px);
         max-width: calc(100vw - 660px);
     }
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1330px) {
     #header-name {
         font-size: 68px;
         line-height: 57px;
@@ -281,6 +329,10 @@ a:active {
         left: 292px;
         font-size: 29px;
         text-align: left;
+        text-shadow: 1px 1px #261145;
+    }
+    #social-media-links {
+        width: calc(52vw - 220px);
     }
     #top-nav {
         top: 181px;
@@ -337,17 +389,31 @@ a:active {
         width: calc(100vw - 320px);
         max-width: calc(100vw - 320px)
     }
+    #social-media-links {
+        min-width: 180px;
+    }
+    .social-media-icon {
+        height: 25px;
+    }
     #top-nav {
-        top: 120px;
+        top: 121px;
         font-size: 18px;
     }
+    /*.title-menu {
+        border-bottom: 1px solid yellow;
+        background: linear-gradient(0deg, rgb(201, 122, 254, .3) 0%, rgb(66, 18, 114, .3) 60%, rgb(0, 0, 0, .3) 100%);
+    }
+    .menu-item {
+        flex-grow: 0;
+        flex-shrink: 0;
+    }*/
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 500px) {
     #header-title {
         left: 72px;
         font-size: 30px;
-        top: 35px;
+        top: 30px;
     }
     #header-name {
         margin-left: 5px;
@@ -356,17 +422,26 @@ a:active {
     }
     #subtitle {
         font-size: 17px;
-        top: -26px;
+        top: -24px;
         left: 5px;
     }
     #subtitle-medforce {
         font-size: 19px;
-        top: -27px;
+        top: -25px;
         left: 99px;
     }
+    #social-media-links {
+        width: calc(100vw - 300px);
+        min-width: 234px;
+        top: 94px;
+    }
+    .social-media-icon {
+        height: 21px;
+    }
     #top-nav {
-        top: 120px;
-        font-size: 11px;
+        top: 121px;
+        font-size: 16px;
+        font-family: 'Soloist Condensed';
     }
 }
 
@@ -376,7 +451,7 @@ Start Content*/
 #main-content {
     position: absolute;
     z-index: -1;
-    top: 181px;
+    top: 211px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -385,9 +460,9 @@ Start Content*/
     padding: 0 20px 0 20px;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 690px) {
     #main-content {
-        top: 220px;
+        top: 150px;
     }
 }
 
