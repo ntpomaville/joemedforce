@@ -153,7 +153,7 @@ a:active {
     z-index: 2;
     top: 13px;
     right: 0;
-    width: calc(100vw - 740px);
+    width: calc(100vw - 840px);
     font-family: 'Soloist Halftone';
     text-shadow: 1px 1px #564175;
     color: #eeeed9;
@@ -166,7 +166,7 @@ a:active {
     z-index: 2;
     top: 47px;
     right: 0;
-    width: calc(100vw - 740px);
+    width: calc(100vw - 840px);
     font-family: 'Soloist';
     font-size: 68px;
     text-shadow: 3px 3px #261145;
@@ -195,8 +195,6 @@ a:active {
     background-size: contain;
     background-repeat: repeat;
 }
-
-
 
 #top-nav {
     position: absolute;
