@@ -196,35 +196,6 @@ a:active {
     background-repeat: repeat;
 }
 
-#social-media-links {
-    position: absolute;
-    z-index: 6;
-    right: 0;
-    top: 14px;
-    width: calc(30vw - 220px);
-    min-width: 220px;
-}
-
-#social-media-list {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.social-media-button {
-    flex: 1;
-    user-select: none;
-    height: 30px;
-}
-
-.social-media-icon {
-    height: 30px;
-    opacity: 70%;
-}
-
-.social-media-icon:hover {
-    opacity: 100%;
-}
 
 
 #top-nav {
@@ -323,16 +294,12 @@ a.menu-link:active {
         text-align: left;
         width: 120px;
     }
-    
     #subtitle-medforce {
         top: 114px;
         left: 292px;
         font-size: 29px;
         text-align: left;
         text-shadow: 1px 1px #261145;
-    }
-    #social-media-links {
-        width: calc(52vw - 220px);
     }
     #top-nav {
         top: 181px;
@@ -389,12 +356,6 @@ a.menu-link:active {
         width: calc(100vw - 320px);
         max-width: calc(100vw - 320px)
     }
-    #social-media-links {
-        min-width: 180px;
-    }
-    .social-media-icon {
-        height: 25px;
-    }
     #top-nav {
         top: 121px;
         font-size: 18px;
@@ -429,14 +390,6 @@ a.menu-link:active {
         font-size: 19px;
         top: -25px;
         left: 99px;
-    }
-    #social-media-links {
-        width: calc(100vw - 300px);
-        min-width: 234px;
-        top: 94px;
-    }
-    .social-media-icon {
-        height: 21px;
     }
     #top-nav {
         top: 121px;
@@ -489,3 +442,34 @@ Start Content*/
     padding-right: 8px;
 }
 
+
+
+#social-media-links {
+    position: absolute;
+    z-index: 6;
+    right: 0;
+    bottom: 16px;
+    width: 33vw;
+    min-width: 220px;
+}
+
+#social-media-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.social-media-button {
+    flex: 1;
+    user-select: none;
+    height: 30px;
+}
+
+.social-media-icon {
+    height: 30px;
+    opacity: 70%;
+}
+
+.social-media-icon:hover {
+    opacity: 100%;
+}
