@@ -6,81 +6,85 @@
   <meta name="viewport" id="jb-viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=0" />
 	<meta name="description" content="Twitch streamer JoeMedforce's community and info page.">
   <link rel="icon" href="profile_image_round.png">
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Press+Start+2P&family=Russo+One&family=Sarpanch:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"><body id='body'>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="fonts/stylesheet.css">
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
   
 
-  
-  <div id="content">
+<body id="body">
+  <div id="title-bar">
+    <a href="http://twitch.tv/joemedforce" target="_blank">
+    <div id="header-img" style="background-image:url('profile-banner-2-no-samus.png')"></div>
+      <div id="header-title">twitch.tv&nbsp;/
+        <h1 id="header-name">JoeMedforce</h1>
+        <div id="subtitle">Join The</div>
+        <div id="subtitle-medforce">Medforce</div>
+      </div>
+    </a>
+    <div id="header-img-joe" style="background-image:url('title-banner-2nd-gen4.png')"></div>
+    <div id="stars-bg" style="background-image:url('stars-bg.jpg')"></div>
 
+    <nav id="top-nav">
+      <ul class="title-menu">
+        <li class="menu-item" style="cursor: pointer;" onclick="window.location.href='index.html';"><a class="menu-link" href="index.html">Home</a></li>
+        <li class="menu-item" style="cursor: pointer;" onclick="window.location.href='calendar.html';"><a class="menu-link" href="calendar.html">Calendar</a></li>
+        <li class="menu-item" style="cursor: pointer;" onclick="window.location.href='community.html';"><a class="menu-link" href="community.html">Community</a></li>
+        <li class="menu-item" style="cursor: pointer;" onclick="window.location.href='contact.html';"><a class="menu-link" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
 
-    <div id="title-bar">
-      <a href="http://twitch.tv/joemedforce" target="_blank">
-      <div id="header-img" style="background-image:url('profile-banner-2-no-samus.png')"></div>
-        <div id="header-title">twitch.tv&nbsp;/
-          <div id="header-name">JoeMedforce</div>
-          <div id="subtitle">Join The</div>
-          <div id="subtitle-medforce">Medforce</div>
-        
-        </div>
+  <div id="main-content">
+    <div id="about">
+      <h2 id="about-header">About Me</h2>
+      <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a augue ultrices, ultricies enim ut, iaculis orci. Duis fringilla laoreet quam in lacinia. Nam lacinia ultrices convallis. Nunc malesuada bibendum enim eget tempus. Donec nec lacus id nibh aliquam finibus ut ut felis. Aliquam iaculis velit sed leo dictum tempor. In hac habitasse platea dictumst. Vestibulum et sapien dapibus, porta lectus a, faucibus libero.</p>
+    </div>
+
+    <div id="twitch-embed">
+      <script src="https://embed.twitch.tv/embed/v1.js"></script>
+      <script type="text/javascript">
+        new Twitch.Embed("twitch-embed", {
+          width: "100%",
+          height: "100%",
+          channel: "joemedforce",
+          layout: "video-with-chat",
+          theme: "dark",
+        });
+      </script>
+    </div>
+
+    <!--<div id="twitter-feed">
+      <a class="twitter-timeline"
+        href="https://twitter.com/joemedforce"
+        data-theme="light"
+        data-chrome="transparent"
+        data-width="100%"
+        data-height="100%">
       </a>
-      <div id="header-img-joe" style="background-image:url('title-banner-2nd-gen4.png')"></div>
-      <div id="stars-bg" style="background-image:url('stars-bg.jpg')"></div>
-
-      <nav id="top-nav">
-        <ul class="title-menu">
-          <li class="menu-item" style="cursor: pointer;" onclick="window.location.href='index.html';"><a class="menu-link" href="index.html">Home</a></li>
-          <li class="menu-item" style="cursor: pointer;" onclick="window.location.href='calendar.html';"><a class="menu-link" href="calendar.html">Calendar</a></li>
-          <li class="menu-item" style="cursor: pointer;" onclick="window.location.href='community.html';"><a class="menu-link" href="community.html">Community</a></li>
-          <li class="menu-item" style="cursor: pointer;" onclick="window.location.href='contact.html';"><a class="menu-link" href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
     </div>
 
-    <div id="main-content">
-      <!--<div id="twitch-embed">
-        <script src="https://embed.twitch.tv/embed/v1.js"></script>
-        <script type="text/javascript">
-          new Twitch.Embed("twitch-embed", {
-            width: "100%",
-            height: "100%",
-            channel: "joemedforce",
-          });
-        </script>
-      </div>
+    <div id="discord">
+      <iframe src="https://discordapp.com/widget?id=709029940431028246&theme=dark" 
+        width="100%" height="100%" allowtransparency="true" frameborder="0" 
+        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+      </iframe>
+    </div>-->
 
-      <div id="twitter-feed">
-        <a class="twitter-timeline"
-          href="https://twitter.com/joemedforce"
-          data-theme="light"
-          data-chrome="transparent"
-          data-width="100%"
-          data-height="100%">
-        </a>
-      </div>
-
-      <div id="discord">
-        <iframe src="https://discordapp.com/widget?id=709029940431028246&theme=dark" 
-          width="100%" height="100%" allowtransparency="true" frameborder="0" 
-          sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
-        </iframe>
-      </div>-->
-
-      
-    </div>
     <nav id="social-media-links">
       <ul id="social-media-list">
+        <li class="social-media-button"><a href="https://www.twitch.com/joemedforce"><img src="twitch.svg" class="social-media-icon"></a></li>
         <li class="social-media-button"><a href="https://www.twitter.com/JoeMedforce"><img src="twitter.svg" class="social-media-icon"></a></li>
         <li class="social-media-button"><a href="https://www.instagram.com/joemedforce"><img src="instagram.svg" class="social-media-icon"></a></li>
         <li class="social-media-button"><a href="https://www.youtube.com/channel/UCiqkESu0JfoMhbGSoi84mKQ"><img src="youtube.svg" class="social-media-icon"></a></li>
         <li class="social-media-button"><a href="https://www.tiktok.com/@joemedforce"><img src="tiktok.svg" class="social-media-icon"></a></li>
-        <li class="social-media-button"><a href="https://www.twitch.com/joemedforce"><img src="twitch.svg" class="social-media-icon"></a></li>
       </ul>
     </nav>
   </div>
+
+
   <script type="text/javascript" src="scripts/script.js"></script>
 </body>
 
