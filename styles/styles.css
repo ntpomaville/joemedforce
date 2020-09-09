@@ -389,8 +389,13 @@ a.menu-link:active {
 Start Content*/
 
 #main-content {
-    padding-top: 50px;
+    top: 370px;
+    left: 0;
+    right: 0;
     margin: auto;
+    position: absolute;
+    bottom: 0;
+    min-height: 100%;
     padding: 0 2% 0 2%;
 }
 
@@ -443,12 +448,18 @@ Start Content*/
 }
 
 @media screen and (max-width: 690px) {
+    #main-content {
+        top: 270px;
+    }
     .content-container {
         padding-top: 60px;
     }
 }
 
 @media screen and (max-width: 500px) {
+    #main-content {
+        top: 250px;
+    }
     .content-container {
         padding-top: 55px;
     }
@@ -488,7 +499,9 @@ Start Content*/
 Start Bottom*/
 
 #social-media-links {
-    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
     z-index: 1;
     width: 33vw;
     min-width: 220px;
