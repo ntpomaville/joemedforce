@@ -93,6 +93,8 @@ a:active {
 
 #body {
     background-color: #1A1A1B;
+    overflow: auto;
+    height: 100vh;
 }
 
 /*Start Header*/
@@ -389,13 +391,8 @@ a.menu-link:active {
 Start Content*/
 
 #main-content {
-    top: 370px;
-    left: 0;
-    right: 0;
+    padding-top: 50px;
     margin: auto;
-    position: absolute;
-    bottom: 0;
-    min-height: 100%;
     padding: 0 2% 0 2%;
 }
 
@@ -448,18 +445,12 @@ Start Content*/
 }
 
 @media screen and (max-width: 690px) {
-    #main-content {
-        top: 270px;
-    }
     .content-container {
         padding-top: 60px;
     }
 }
 
 @media screen and (max-width: 500px) {
-    #main-content {
-        top: 250px;
-    }
     .content-container {
         padding-top: 55px;
     }
@@ -498,24 +489,35 @@ Start Content*/
 /*End Content
 Start Bottom*/
 
-#social-media-links {
-    position: absolute;
+#bottom-bar {
+    /*position: fixed;
     bottom: 0;
     right: 0;
+    background-color: black;
+    border-top: 1px solid #a6a697;
+    border-top: 1px solid #F0D200;
+    background: radial-gradient(ellipse at top, rgb(201, 122, 254, .3) 0%, rgb(66, 18, 114, .3) 60%, rgb(0, 0, 0, 0) 85%);
+    background-color: black;*/
+    width: 92vw;
     z-index: 1;
-    width: 33vw;
-    min-width: 220px;
-    padding: 30px 0 20px 0;
+    padding-top: 30px;
+}
+
+#social-media-links {
+    float: right;
+    width: 40vw;
+    min-width: 280px;
+    padding: 11px 0 11px 0;
     color: white;
 }
 
 #social-media-list {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .social-media-button {
+    text-align: center;
     flex: 1;
     user-select: none;
     height: 30px;
