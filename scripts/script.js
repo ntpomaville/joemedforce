@@ -13,17 +13,14 @@ if (hasVerticalScrollbar == false) {
     bottomBar.style.right = '0';
 }
 
-window.onresize = function myFunction() {
-    noVerticalScrollbar = div.scrollHeight < div.clientHeight;
-    console.log(noVerticalScrollbar);
-    if (noVerticalScrollbar == true) {
+window.onresize = function moveBottomBarOnResize() {
+    hasVerticalScrollbar = div.scrollHeight > div.clientHeight;
+    if (hasVerticalScrollbar == false) {
         bottomBar.style.position = 'absolute';
         bottomBar.style.bottom = '0';
         bottomBar.style.right = '0';
     }
-    if (noVerticalScrollbar == false) {
+    if (hasVerticalScrollbar == true) {
         bottomBar.style.position = 'static';
-        bottomBar.style.bottom = '0';
-        bottomBar.style.right = '0';
     }
 }
