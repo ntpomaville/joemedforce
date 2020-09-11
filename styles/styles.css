@@ -70,25 +70,26 @@ table {
 
 a:link {
     text-decoration: none;
-    color: transparent;
+    color: #9146FF;
+    
 }
 
 a:visited {
-    color: transparent;
+    color: #F0D200;
 }
 
 a:hover {
     text-decoration: none;
-    color: transparent;
+    color: #ffe72d;
 }
 
 a:focus {
     text-decoration: none;
-    color: transparent;
+    color: #ffe72d;
 }
 
 a:active {
-    color: transparent;
+    color: #ffe72d;
 }
 
 #body {
@@ -281,7 +282,7 @@ a.menu-link:active {
         left: 170px;
         font-size: 22px;
         text-align: left;
-        width: 120px;
+        min-width: 120px;
     }
     #subtitle-medforce {
         top: 114px;
@@ -410,9 +411,11 @@ Start Content*/
     padding: 5px 0 5px 0;
     margin-bottom: 25px;
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
     color: #eeeed9;
     background-color: #9D00FD;
+    background-color: #8700db;
+    background-color: #7500be;
     border-radius: 25px;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
@@ -426,7 +429,7 @@ Start Content*/
     font-weight: 400;
     max-width: 1200px;
     text-align: center;
-
+    margin-top: 40px;
 }
 
 @media screen and (max-width: 1330px) {
@@ -459,6 +462,46 @@ Start Content*/
     }
 }
 
+#stream-times-list {
+    padding: 48px 0 0 0;
+    text-align: center;
+    line-height: 50px;
+}
+
+.stream-times-item {
+    font-family: 'Roboto', sans-serif;
+    color: #eeeed9;
+    font-size: 30px;
+}
+
+#twitch-schedule-link-container {
+    margin: auto;
+    margin-top: 70px;
+    width: 180px;
+    width: 70%;
+    padding: 5px 0 5px 0;
+    margin-bottom: 25px;
+    text-align: center;
+    background-color: #ffe72d;
+    background: linear-gradient(120deg, #9D00FD 0%, #390d7b 70%);
+    border-radius: 10px;
+    border: 3px ridge #ffe72d;
+    
+}
+
+#twitch-schedule-link-container:hover {
+    border: 4px ridge #5B0BBC;
+}
+
+#twitch-schedule-link {
+    font-size: 26px;
+    color: #fffb2d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-shadow: 1px 1px #18003d;
+    line-height: 36px;
+}
+
 #twitch-embed {
     margin: auto;
     width: 99%;
@@ -471,19 +514,30 @@ Start Content*/
 }
 
 #twitter-feed {
-    display: block;
-    width: 30%;
-    height: 49%;
+    width: 59%;
+    height: calc(100vh - 340px);
+    height: 69vh;
     float: left;
-    padding-left: 4px;
 }
 
-#discord {
-    display: block;
-    width: 68%;
-    height: 49%;
+.aside {
+    width: calc(40% - 20px);
     float: right;
-    padding-right: 8px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#waluigi-pic {
+    display: block;
+    margin: 30px 0 0 0px;
+    width: 60%;
+}
+
+#contact-pic {
+    margin-top: 50px;
+    width: 100%;
+    border-radius: 15px;
+    border: 3px ridge #390d7b;
 }
 
 /*End Content
