@@ -18,21 +18,21 @@ if (weekday > 12) {
 let weekdayTime = weekday + weekdayAmPm;
 
 //Determine local time for 11am GMT
-let weekend = 11 - timeZoneHoursOffset;
-let weekendAmPm = "am";
+let weekend = 7 - timeZoneHoursOffset;
+let weekendAmPm = "pm";
 if (weekend < 1) {
     weekend = weekend + 12;
-    weekendAmPm = "pm";
+    weekendAmPm = "am";
 }
 if (weekend > 12) {
     weekend = weekend -12;
-    weekendAmPm = "pm";
+    weekendAmPm = "am";
 }
 
 let weekendTime = weekend + weekendAmPm;
 
 //Set times on calendar.html
-document.getElementById("wednesday-schedule").innerHTML = 'Wednesday ' + weekdayTime;
-document.getElementById("friday-schedule").innerHTML = 'Friday ' + weekdayTime;
-document.getElementById("saturday-schedule").innerHTML = 'Saturday ' + weekendTime;
+document.getElementById("wednesday-schedule").innerHTML = 'Wednesday @' + weekdayTime;
+document.getElementById("friday-schedule").innerHTML = 'Friday @' + weekdayTime;
+document.getElementById("saturday-schedule").innerHTML = 'Saturday @' + weekendTime;
 document.getElementById("times-note").innerHTML = '(All times listed for your local timezone)'

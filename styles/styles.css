@@ -124,7 +124,7 @@ a:active {
     width: calc(100vw - 330px);
     max-width: calc(100vw - 330px);
     font-size: 48px;
-    font-family: 'Soloist Chrome';
+    font-family: 'Soloist Chrome', sans-serif;
     text-shadow: 3px 3px #F0D200;
     color: #9146FF;
 }
@@ -132,7 +132,7 @@ a:active {
 #header-name {
     font-size: 68px;
     line-height: 68px;
-    font-family: 'Soloist';
+    font-family: 'Soloist', sans-serif;
     text-shadow: 3px 3px #261145;
     color: #F0D200;
 }
@@ -145,7 +145,7 @@ a:active {
     right: 0;
     width: calc(100vw - 840px);
     max-width: calc(100vw - 840px);
-    font-family: 'Soloist Halftone';
+    font-family: 'Soloist Halftone', sans-serif;
     text-shadow: 1px 1px #564175;
     color: #eeeed9;
     font-size: 38px;
@@ -159,7 +159,7 @@ a:active {
     right: 0;
     width: calc(100vw - 840px);
     max-width: calc(100vw - 840px);
-    font-family: 'Soloist';
+    font-family: 'Soloist', sans-serif;
     font-size: 68px;
     text-shadow: 3px 3px #261145;
     color: #9D00FD;
@@ -195,7 +195,7 @@ a:active {
     right: 0;
     font-size: 20px;
     width: calc(100vw - 840px);
-    font-family: 'Soloist Laser';
+    font-family: 'Soloist Laser', sans-serif;
     text-shadow: 1px 1px #261145;
     color: #F0D200;
 }
@@ -384,7 +384,7 @@ a.menu-link:active {
     #top-nav {
         top: 121px;
         font-size: 16px;
-        font-family: 'Soloist Condensed';
+        font-family: 'Soloist Condensed', sans-serif;
     }
 }
 
@@ -413,8 +413,6 @@ Start Content*/
     text-align: center;
     font-size: 22px;
     color: #eeeed9;
-    background-color: #9D00FD;
-    background-color: #8700db;
     background-color: #7500be;
     border-radius: 25px;
     font-family: 'Roboto', sans-serif;
@@ -462,21 +460,23 @@ Start Content*/
     }
 }
 
+/*Calendar Content*/
+
 #stream-times-list {
-    padding: 48px 0 0 0;
+    padding: 33px 0 5px 0;
     text-align: center;
     line-height: 50px;
 }
 
 .stream-times-item {
-    font-family: 'Roboto', sans-serif;
-    color: #eeeed9;
+    font-family: 'Soloist Straight', sans-serif;
+    color: #ffe72d;
     font-size: 30px;
 }
 
 #twitch-schedule-link-container {
     margin: auto;
-    margin-top: 70px;
+    margin-top: 50px;
     width: 180px;
     width: 70%;
     padding: 5px 0 5px 0;
@@ -502,12 +502,13 @@ Start Content*/
     line-height: 36px;
 }
 
+/*Community Content*/
+
 #twitch-embed {
     margin: auto;
     width: 99%;
     max-width: 1200px;
     height: 550px;
-    border: 3px ridge #390d7b;
     border: 3px ridge #9D00FD;
     border-radius: 3px;
     margin-top: 20px;
@@ -533,6 +534,8 @@ Start Content*/
     width: 60%;
 }
 
+/*Contact Content*/
+
 #contact-pic {
     margin-top: 50px;
     width: 100%;
@@ -544,14 +547,6 @@ Start Content*/
 Start Bottom*/
 
 #bottom-bar {
-    /*position: fixed;
-    bottom: 0;
-    right: 0;
-    background-color: black;
-    border-top: 1px solid #a6a697;
-    border-top: 1px solid #F0D200;
-    background: radial-gradient(ellipse at top, rgb(201, 122, 254, .3) 0%, rgb(66, 18, 114, .3) 60%, rgb(0, 0, 0, 0) 85%);
-    background-color: black;*/
     width: 92vw;
     z-index: 1;
     padding-top: 30px;
