@@ -430,6 +430,13 @@ Start Content*/
     margin-top: 40px;
 }
 
+.left-paragraph {
+    text-align: left;
+    margin-left: 12px;
+    margin-right: 12px;
+    line-height: 28px;
+}
+
 @media screen and (max-width: 1330px) {
     .content-container {
         padding-top: 70px;
