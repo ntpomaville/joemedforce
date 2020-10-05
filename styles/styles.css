@@ -434,7 +434,7 @@ Start Content*/
     text-align: left;
     margin-left: 12px;
     margin-right: 12px;
-    line-height: 28px;
+    line-height: 24px;
 }
 
 @media screen and (max-width: 1330px) {
@@ -557,6 +557,22 @@ Start Bottom*/
     width: 92vw;
     z-index: 1;
     padding-top: 30px;
+}
+
+#bottom-bar-tagline {
+    color: #aeae9f;
+    float: left;
+    font-size: 24px;
+    max-width: 50vw;
+    padding: 16px 0 0 20px;
+    font-family: 'Soloist Extra';
+    font-style: italic;
+}
+
+@media screen and (max-width: 864px) {
+    #bottom-bar-tagline {
+        font-size: 0;
+    }
 }
 
 #social-media-links {
