@@ -526,6 +526,7 @@ Start Content*/
     height: calc(100vh - 340px);
     height: 69vh;
     float: left;
+    margin-bottom: 40px;
 }
 
 .aside {
@@ -533,6 +534,12 @@ Start Content*/
     float: right;
     text-align: left;
     padding-left: 20px;
+}
+
+@media screen and (max-width: 580px) {
+    .aside {
+        font-size: 14px;
+    }
 }
 
 #waluigi-pic {
@@ -544,7 +551,8 @@ Start Content*/
 /*Contact Content*/
 
 #contact-pic {
-    margin-top: 50px;
+    float: right;
+    margin: 30px 0 30px 0;
     width: 100%;
     border-radius: 15px;
     border: 3px ridge #390d7b;
