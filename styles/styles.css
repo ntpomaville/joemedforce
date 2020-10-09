@@ -413,6 +413,7 @@ Start Content*/
     text-align: center;
     font-size: 22px;
     color: #eeeed9;
+    color: #fffb2c;
     background-color: #7500be;
     border-radius: 25px;
     font-family: 'Roboto', sans-serif;
@@ -427,7 +428,7 @@ Start Content*/
     font-weight: 400;
     max-width: 1200px;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .left-paragraph {
@@ -534,11 +535,18 @@ Start Content*/
     float: right;
     text-align: left;
     padding-left: 20px;
+    margin-top: 30px;
 }
 
 @media screen and (max-width: 580px) {
     .aside {
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .aside {
+        font-size: 9px;
     }
 }
 
@@ -556,6 +564,12 @@ Start Content*/
     width: 100%;
     border-radius: 15px;
     border: 3px ridge #390d7b;
+}
+
+@media screen and (max-width: 480px) {
+    #contact-pic {
+        margin: 20px 0 15px 0;
+    }
 }
 
 /*End Content
