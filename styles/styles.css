@@ -541,7 +541,7 @@ Start Content*/
 
     #twitter-feed {
         width: calc(50%);
-        margin-right: 10%;
+        margin-right: 5%;
     }
 
     .aside {
@@ -556,7 +556,7 @@ Start Content*/
         height: 69vh;
         margin-bottom: 50px;
         min-width: calc(4% - 320px);
-        min-width: 4%;
+        min-width: 9%;
     }
 }
 
