@@ -350,14 +350,6 @@ a.menu-link:active {
         top: 121px;
         font-size: 18px;
     }
-    /*.title-menu {
-        border-bottom: 1px solid yellow;
-        background: linear-gradient(0deg, rgb(201, 122, 254, .3) 0%, rgb(66, 18, 114, .3) 60%, rgb(0, 0, 0, .3) 100%);
-    }
-    .menu-item {
-        flex-grow: 0;
-        flex-shrink: 0;
-    }*/
 }
 
 @media screen and (max-width: 500px) {
@@ -438,6 +430,16 @@ Start Content*/
     line-height: 24px;
 }
 
+#twitch-embed {
+    margin: auto;
+    width: 99%;
+    max-width: 1200px;
+    height: 550px;
+    border: 3px ridge #9D00FD;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
 @media screen and (max-width: 1330px) {
     .content-container {
         padding-top: 70px;
@@ -512,30 +514,50 @@ Start Content*/
 
 /*Community Content*/
 
-#twitch-embed {
-    margin: auto;
-    width: 99%;
-    max-width: 1200px;
-    height: 550px;
-    border: 3px ridge #9D00FD;
-    border-radius: 3px;
-    margin-top: 20px;
-}
+/*Contact Content*/
 
 #twitter-feed {
     width: 59%;
-    height: calc(100vh - 340px);
     height: 69vh;
     float: left;
     margin-bottom: 40px;
 }
 
+
 .aside {
     width: calc(40% - 20px);
+    height: 69vh;
     float: right;
     text-align: left;
     padding-left: 20px;
-    margin-top: 30px;
+    margin-top: 30px 0 10px 0;
+}
+
+
+@media screen and (min-width: 1500px) {
+    #contact-content {
+        max-width: 70%;
+    }
+
+    #twitter-feed {
+        width: calc(44%);
+        margin-right: 10%;
+    }
+
+    .aside {
+        width: calc(41%);
+        float: left;
+        margin-left: 5%;
+        max-width: 320px;
+    }
+
+    #contact-fill-right {
+        float: right;
+        height: 69vh;
+        margin-bottom: 50px;
+        min-width: calc(4% - 320px);
+        min-width: 4%;
+    }
 }
 
 @media screen and (max-width: 580px) {
@@ -550,18 +572,11 @@ Start Content*/
     }
 }
 
-#waluigi-pic {
-    display: block;
-    margin: 30px 0 0 0px;
-    width: 60%;
-}
-
-/*Contact Content*/
-
 #contact-pic {
-    float: right;
+    float: center;
     margin: 30px 0 30px 0;
     width: 100%;
+    max-width: 300px;
     border-radius: 15px;
     border: 3px ridge #390d7b;
 }
