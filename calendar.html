@@ -30,26 +30,25 @@
       <ul class="title-menu">
         <li class="menu-item" style="cursor: pointer;" onclick="window.location.href='index.html';"><a class="menu-link" href="index.html">Home</a></li>
         <li class="menu-item" style="cursor: pointer;" onclick="window.location.href='calendar.html';"><a class="menu-link" href="calendar.html">Calendar</a></li>
-        <!--<li class="menu-item" style="cursor: pointer;" onclick="window.location.href='community.html';"><a class="menu-link" href="community.html">Community</a></li>-->
-        <li class="menu-item" style="cursor: pointer;" onclick="window.location.href='contact.html';"><a class="menu-link" href="contact.html">Contact</a></li>
+        <li class="menu-item" style="cursor: pointer;" onclick="window.location.href='contact.html';"><a class="menu-link" href="connect.html">Connect</a></li>
       </ul>
     </nav>
   </div>
 
   <div id="main-content">
     <div class="content-container">
-      <h2 class="content-header">Schedule</h2>
-      <p class="paragraph">Catch me at the following times:</p>
+      <h2 id="twitch-schedule-link-container" style="cursor: pointer;" onclick="window.open('https://www.twitch.tv/joemedforce/schedule')">
+        <a href="https://www.twitch.tv/joemedforce/schedule" target="_blank" id="twitch-schedule-link">Schedule Details<p id="twitch-schedule-link-sub">( Click Here for Full Calendar )</p></a>
+      </h2>
+      <p class="paragraph">Live every week on the following days and times:</p>
       <ul id="stream-times-list">
         <li id="wednesday-schedule" class="stream-times-item"></li>
-        <li id="friday-schedule" class="stream-times-item">Friday 6pm GMT</li>
-        <li id="saturday-schedule" class="stream-times-item">Saturday 11am GMT</li>
+        <li id="friday-schedule" class="stream-times-item"></li>
+        <li id="saturday-schedule" class="stream-times-item"></li>
       </ul>
       <p class="paragraph" id="times-note"></p>
 
-      <div id="twitch-schedule-link-container" style="cursor: pointer;" onclick="window.open('https://www.twitch.tv/joemedforce/schedule')">
-        <a href="https://www.twitch.tv/joemedforce/schedule" target="_blank" id="twitch-schedule-link">Schedule Details</a>
-      </div>
+
     </div>
     
     <div id="bottom-bar">

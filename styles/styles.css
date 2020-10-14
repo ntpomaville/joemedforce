@@ -404,12 +404,15 @@ Start Content*/
     margin-bottom: 25px;
     text-align: center;
     font-size: 22px;
-    color: #eeeed9;
     color: #fffb2c;
+    color: #f5f12a;
+    text-shadow: 1px 1px #18003d;
     background-color: #7500be;
     border-radius: 25px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    font-family: 'Soloist', sans-serif;
+    font-style: italic;
+    font-weight: 500;
 }
 
 .paragraph {
@@ -425,8 +428,7 @@ Start Content*/
 
 .left-paragraph {
     text-align: left;
-    margin-left: 12px;
-    margin-right: 12px;
+    margin: 0 12px 50px 12px;
     line-height: 24px;
 }
 
@@ -437,7 +439,7 @@ Start Content*/
     height: 550px;
     border: 3px ridge #9D00FD;
     border-radius: 3px;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 @media screen and (max-width: 1330px) {
@@ -500,28 +502,37 @@ Start Content*/
 }
 
 #twitch-schedule-link-container:hover {
-    border: 4px ridge #5B0BBC;
+    border: 3px ridge #5B0BBC;
+    background: linear-gradient(120deg, #6a07ac 0%, #390d7b 70%);
 }
 
 #twitch-schedule-link {
-    font-size: 26px;
+    font-size: 28px;
     color: #fffb2d;
     font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+    font-family: 'Soloist Straight', sans-serif;
+    font-style: italic;
+    font-weight: 500;
     text-shadow: 1px 1px #18003d;
     line-height: 36px;
+}
+
+#twitch-schedule-link-sub {
+    font-size: 12px;
+    line-height: 16px;
+    font-style: normal;
 }
 
 /*Community Content*/
 
 /*Contact Content*/
 
-#twitter-feed {
+/*#twitter-feed {
     width: 59%;
     height: 69vh;
     float: left;
     margin-bottom: 40px;
-}
+}*/
 
 
 .aside {
