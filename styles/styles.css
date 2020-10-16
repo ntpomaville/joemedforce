@@ -415,6 +415,12 @@ Start Content*/
     font-weight: 500;
 }
 
+@media screen and (max-width: 440px) {
+    .content-header {
+        font-size: 18px;
+    }
+}
+
 .paragraph {
     margin: auto;
     color: #eeeed9;
@@ -424,7 +430,7 @@ Start Content*/
     max-width: 1200px;
     text-align: center;
     margin-top: 50px;
-    line-height: 24px;
+    line-height: 28px;
 }
 
 .left-paragraph {
@@ -469,30 +475,18 @@ Start Content*/
     }
     .paragraph {
         font-size: 16px;
+        line-height: 22px;
+        margin-top: 25px;
     }
 }
 
 /*Calendar Content*/
 
-#stream-times-list {
-    padding: 33px 0 5px 0;
-    text-align: center;
-    line-height: 50px;
-}
-
-.stream-times-item {
-    font-family: 'Soloist Straight', sans-serif;
-    color: #ffe72d;
-    font-size: 30px;
-}
-
 #twitch-schedule-link-container {
-    margin: auto;
-    margin-top: 50px;
+    margin: 50px auto 25px auto;
     width: 180px;
     width: 70%;
     padding: 5px 0 5px 0;
-    margin-bottom: 25px;
     text-align: center;
     background-color: #ffe72d;
     background: linear-gradient(120deg, #9D00FD 0%, #390d7b 70%);
@@ -523,7 +517,43 @@ Start Content*/
     font-style: normal;
 }
 
-/*Community Content*/
+#stream-times-list {
+    padding: 33px 0 5px 0;
+    text-align: center;
+    line-height: 50px;
+}
+
+.stream-times-item {
+    font-family: 'Soloist Straight', sans-serif;
+    color: #ffe72d;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 470px) {
+    #twitch-schedule-link {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    #twitch-schedule-link-container {
+        margin: 0 auto 0 auto;
+    }
+
+    #twitch-schedule-link-sub {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    #stream-times-list {
+        padding: 10px 0 5px 0;
+        text-align: center;
+        line-height: 50px;
+    }
+    
+    .stream-times-item {
+        font-size: 24px;
+    }
+}
 
 /*Contact Content*/
 
@@ -532,7 +562,7 @@ Start Content*/
     height: 69vh;
     float: left;
     margin-bottom: 40px;
-}*/
+}
 
 
 .aside {
@@ -581,7 +611,7 @@ Start Content*/
     .aside {
         font-size: 9px;
     }
-}
+}*/
 
 #connect-social-media-links {
     display: block;
@@ -625,6 +655,18 @@ Start Content*/
 @media screen and (max-width: 480px) {
     #contact-pic {
         margin: 20px auto 15px auto;
+    }
+
+    #connect-social-media-links {
+        margin: 20px auto 0 auto;
+    }
+
+    .connect-social-media-button {
+        height: 34px;
+    }
+    
+    .connect-social-media-icon {
+        height: 34px;
     }
 }
 
