@@ -424,12 +424,12 @@ Start Content*/
     max-width: 1200px;
     text-align: center;
     margin-top: 50px;
+    line-height: 24px;
 }
 
 .left-paragraph {
     text-align: left;
     margin: 0 12px 50px 12px;
-    line-height: 24px;
 }
 
 #twitch-embed {
@@ -583,18 +583,48 @@ Start Content*/
     }
 }
 
-#contact-pic {
-    float: center;
-    margin: 30px 0 30px 0;
+#connect-social-media-links {
+    display: block;
+    margin: 50px auto 50px auto;
     width: 100%;
-    max-width: 300px;
+    min-width: 280px;
+    padding: 11px 0 11px 0;
+}
+
+#connect-social-media-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.connect-social-media-button {
+    text-align: center;
+    flex: 1;
+    user-select: none;
+    height: 50px;
+}
+
+.connect-social-media-icon {
+    height: 50px;
+    opacity: 90%;
+}
+
+.connect-social-media-icon:hover {
+    opacity: 100%;
+}
+
+#contact-pic {
+    display: block;
+    text-align: center;
+    margin: 30px auto 30px auto;
+    width: 80%;
+    max-width: 600px;
     border-radius: 15px;
     border: 3px ridge #390d7b;
 }
 
 @media screen and (max-width: 480px) {
     #contact-pic {
-        margin: 20px 0 15px 0;
+        margin: 20px auto 15px auto;
     }
 }
 

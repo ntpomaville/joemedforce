@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Capa_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 512 512"
+   style="enable-background:new 0 0 512 512;"
+   xml:space="preserve"
+   sodipodi:docname="twitch-color.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata136"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs134" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="2194"
+   inkscape:window-height="1090"
+   id="namedview132"
+   showgrid="false"
+   inkscape:zoom="1.7714844"
+   inkscape:cx="256"
+   inkscape:cy="256"
+   inkscape:window-x="0"
+   inkscape:window-y="25"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Capa_1" />
+<g
+   id="g99">
+	<path
+   style="fill:#6441a5;"
+   d="M48,0L16,96v352h128v64h64l64-64h96l128-136.32V0H48z M464,288l-89.6,96H260.928L192,434.144V384H80   V32h384V288z"
+   id="path93" />
+	<rect
+   x="240"
+   y="128"
+   style="fill:#6441a5;"
+   width="32"
+   height="128"
+   id="rect95" />
+	<rect
+   x="336"
+   y="128"
+   style="fill:#6441a5;"
+   width="32"
+   height="128"
+   id="rect97" />
+</g>
+<g
+   id="g101">
+</g>
+<g
+   id="g103">
+</g>
+<g
+   id="g105">
+</g>
+<g
+   id="g107">
+</g>
+<g
+   id="g109">
+</g>
+<g
+   id="g111">
+</g>
+<g
+   id="g113">
+</g>
+<g
+   id="g115">
+</g>
+<g
+   id="g117">
+</g>
+<g
+   id="g119">
+</g>
+<g
+   id="g121">
+</g>
+<g
+   id="g123">
+</g>
+<g
+   id="g125">
+</g>
+<g
+   id="g127">
+</g>
+<g
+   id="g129">
+</g>
+<path
+   style="fill:#ffffff;stroke-width:0.56449836"
+   d="M 192.09879,408.66021 V 383.80243 H 136.21345 80.328115 V 207.96119 32.119956 H 271.9753 463.62249 l -0.0145,128.000004 -0.0145,128 -44.67049,47.84123 -44.67048,47.84124 -56.78362,0.0138 -56.78362,0.0138 -33.3054,24.29364 c -18.31797,13.3615 -33.74995,24.54131 -34.29328,24.84401 -0.9342,0.52048 -0.98787,-0.79999 -0.98787,-24.30741 z m 80.15876,-216.79588 v -64.36147 l -16.22933,0.14978 -16.22932,0.14979 -0.14353,64.21168 -0.14353,64.21169 h 16.37286 16.37285 z m 95.96472,0 v -64.36147 l -16.22933,0.14978 -16.22932,0.14979 -0.14535,63.50606 c -0.0799,34.92833 -0.0244,63.82359 0.12342,64.21169 0.20632,0.54173 4.00959,0.70562 16.37466,0.70562 h 16.10592 z"
+   id="path138"
+   inkscape:connector-curvature="0" /></svg>
