@@ -13,6 +13,10 @@ if (hasVerticalScrollbar == false) {
     bottomBar.style.right = '0';
 }
 
+if (hasVerticalScrollbar == true) {
+    bottomBar.style.position = 'static';
+}
+
 window.onresize = function moveBottomBarOnResize() {
     hasVerticalScrollbar = div.scrollHeight > div.clientHeight;
     if (hasVerticalScrollbar == false) {

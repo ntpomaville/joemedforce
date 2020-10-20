@@ -438,6 +438,10 @@ Start Content*/
     margin: 0 12px 50px 12px;
 }
 
+.in-body-paragraph {
+    margin-bottom: 28px;
+}
+
 #twitch-embed {
     margin: auto;
     width: 99%;
