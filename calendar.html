@@ -28,7 +28,7 @@
 
     <nav id="top-nav">
       <ul class="title-menu">
-        <li class="menu-item" style="cursor: pointer;" onclick="window.location.href='index.html';"><a class="menu-link" href="index.html">Home</a></li>
+        <li class="menu-item" style="cursor: pointer;" onclick="window.location.href='index.html';"><a class="menu-link" href="index.html">Watch</a></li>
         <li class="menu-item" style="cursor: pointer;" onclick="window.location.href='calendar.html';"><a class="menu-link" href="calendar.html">Calendar</a></li>
         <li class="menu-item" style="cursor: pointer;" onclick="window.location.href='contact.html';"><a class="menu-link" href="connect.html">Connect</a></li>
       </ul>
@@ -37,10 +37,10 @@
 
   <div id="main-content">
     <div class="content-container">
-      <h2 id="twitch-schedule-link-container" style="cursor: pointer;" onclick="window.open('https://www.twitch.tv/joemedforce/schedule')">
+      <h2 id="twitch-link-container" style="cursor: pointer;" onclick="window.open('https://www.twitch.tv/joemedforce/schedule')">
         <a href="https://www.twitch.tv/joemedforce/schedule" target="_blank" id="twitch-schedule-link">Schedule Details<p id="twitch-schedule-link-sub">( Click Here for Full Calendar )</p></a>
       </h2>
-      <p class="paragraph">Live every week on the following days and times:</p>
+      <p class="paragraph" id="schedule-paragraph">Live every week on the following days and times:</p>
       <ul id="stream-times-list">
         <li id="sunday-schedule" class="stream-times-item"></li>
         <li id="monday-schedule" class="stream-times-item"></li>

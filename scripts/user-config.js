@@ -45,4 +45,4 @@ let saturday = true
 let saturdayTime = 19
 
 //Don't forget to save and reupload!
-//If you want to check your changes, open index.html in your browser from this folder
+//If you want to check your changes, open index.html in your browser

@@ -431,6 +431,7 @@ Start Content*/
     text-align: center;
     margin-top: 50px;
     line-height: 28px;
+    margin-bottom: 80px;
 }
 
 .left-paragraph {
@@ -450,6 +451,17 @@ Start Content*/
     border: 3px ridge #9D00FD;
     border-radius: 3px;
     margin-top: 60px;
+}
+
+#youtube-embed {
+    display: block;
+    margin: 40px auto 80px auto;
+    width: 93vw;
+    max-width: 650px;
+    height: calc(93vw/1.77);
+    max-height: calc(650px/1.77);
+    border: 3px ridge #9D00FD;
+    border-radius: 3px;
 }
 
 @media screen and (max-width: 1330px) {
@@ -486,7 +498,7 @@ Start Content*/
 
 /*Calendar Content*/
 
-#twitch-schedule-link-container {
+#twitch-link-container {
     margin: 50px auto 25px auto;
     width: 180px;
     width: 70%;
@@ -533,6 +545,11 @@ Start Content*/
     font-size: 30px;
 }
 
+#schedule-paragraph {
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
 @media screen and (max-width: 470px) {
     #twitch-schedule-link {
         font-size: 20px;
@@ -556,6 +573,10 @@ Start Content*/
     
     .stream-times-item {
         font-size: 24px;
+    }
+
+    #schedule-paragraph {
+        font-size: 18px;
     }
 }
 
