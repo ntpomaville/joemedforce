@@ -501,7 +501,8 @@ Start Content*/
 #twitch-link-container {
     margin: 50px auto 25px auto;
     width: 180px;
-    width: 70%;
+    width: 80%;
+    max-width: 780px;
     padding: 5px 0 5px 0;
     text-align: center;
     background-color: #ffe72d;
